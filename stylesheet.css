@@ -1,0 +1,20 @@
+#div-header {
+  background-color: rgb(255, 37, 37);
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+}
+
+#ul-header {
+  display: inline-flex;
+  color: brown;
+}
+
+#li.header {
+  padding-left: 1px;
+}
+
+#menu-header {
+  background-color: aqua;
+  display: inline;
+}
