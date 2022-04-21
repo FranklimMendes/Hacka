@@ -1,8 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 #div-header {
   background-color: rgb(255, 37, 37);
   display: flex;
-  justify-content: center;
-  padding-left: 1px;
+  height: 74px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  #div-header {
+    float: none;
+    width: 100%;
+    font-size: 1rem;
+    height: 3rem;
+  }
 }
 
 #ul-header {
@@ -14,7 +29,12 @@
   padding-left: 1px;
 }
 
-#menu-header {
+#menuButton-header {
   background-color: aqua;
   display: inline;
+}
+
+#loginButton-header {
+  display: inline;
+  background-color: blue;
 }
